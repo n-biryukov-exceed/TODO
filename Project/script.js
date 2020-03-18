@@ -58,20 +58,7 @@ $(document).ready(function () {
 		{
 			$(this).removeAttr('checked');
 		} 
-		else 
-		{
-			$(this).attr('checked', 'checked');
-		}
-
 		$(this).parent().toggleClass('completed');
-		$(this);
-		
-	});
-
-	$(document).on('click', '.remove', function() 
-	{
-		$(this).parent().remove();
-
 	});
 
 });
